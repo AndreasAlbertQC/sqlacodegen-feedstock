@@ -25,11 +25,11 @@ requirements:
     - setuptools_scm  >=3.4
 
   run:
-    - python
+    - python >=3.7
     - dataclasses  # [py<37]
     - importlib_metadata  # [py<310]
     - inflect >=4.0.0
-    - sqlalchemy >=1.4.36
+    - sqlalchemy >=1.4.36, <2
 
 test:
   imports:
